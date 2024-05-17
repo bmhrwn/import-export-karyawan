@@ -332,7 +332,7 @@ class KaryawanController extends Controller
         $sheet->setCellValue('G1', 'Foto');
         $sheet->setCellValue('H1', 'Status');
 
-        $data = Karyawan::get();
+        $data = Karyawan::orderBy('created_at','DESC')->get();
 
         foreach ($data as $key => $value) {
             $loop = $key + 1;

@@ -1,6 +1,8 @@
 --Project Test Backend CRUD Export Import--
 
-1. .env
+1. Membuat Database Bernama "test_backend"
+
+2. .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -8,11 +10,11 @@ DB_DATABASE=test_backend
 DB_USERNAME=root
 DB_PASSWORD=
 
-2. php artisan migrate
+3. php artisan migrate
 
-3. php artisan serve
+4. php artisan serve
 
-4. LINK API:
+5. LINK API:
 Get Karyawan:
 localhost:8000/api/karyawan?limit=5&page=1
 
