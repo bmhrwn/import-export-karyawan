@@ -23,12 +23,12 @@ php artisan serve
 ## Step 5
 Link API:
 
-Get Karyawan: <br>
-* localhost:8000/api/karyawan?limit=5&page=1 
+- Get Karyawan: <br>
+* Method GET localhost:8000/api/karyawan?limit=5&page=1 
 
 
-Create Karyawan:
-[a relative link](localhost:8000/api/karyawan)
+- Create Karyawan: <br>
+* Method POST localhost:8000/api/karyawan
 Body Create: 
 ```json
 {
@@ -43,9 +43,11 @@ Body Create:
 ```
 
 
-Update Karyawan:
-localhost:8000/api/karyawan/{id}
-Body Update: {
+- Update Karyawan: <br>
+* Method PUT localhost:8000/api/karyawan/{id}
+Body Update:
+```json
+ {
     "nama":"",
 	"nomor":"",
 	"jabatan":"",
@@ -54,9 +56,11 @@ Body Update: {
     "status": "",
     "foto": ""
 }
+```
 
-Delete Karyawan: 
-localhost:8000/api/karyawan/{id}
+
+- Delete Karyawan: <br>
+* Method DELETE localhost:8000/api/karyawan/{id}
 
 
 Import Karyawan: 
