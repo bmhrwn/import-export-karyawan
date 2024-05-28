@@ -38,7 +38,7 @@ Body Create:
 "departement":"",
 "tanggal_masuk":"",
 "status": "",
- "foto": ""
+"foto": ""
 }
 ```
 
@@ -48,13 +48,13 @@ Update Karyawan: <br>
 Body Update:
 ```json
  {
-    "nama":"",
-	"nomor":"",
-	"jabatan":"",
-	"departement":"",
-	"tanggal_masuk":"",
-    "status": "",
-    "foto": ""
+"nama":"",
+"nomor":"",
+"jabatan":"",
+"departement":"",
+"tanggal_masuk":"",
+"status": "",
+"foto": ""
 }
 ```
 
