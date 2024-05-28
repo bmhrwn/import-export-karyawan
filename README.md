@@ -64,7 +64,7 @@ Delete Karyawan: <br>
 
 
 Import Karyawan: 
-* Method POST localhost:8000/api/karyawan/import
+* Method POST localhost:8000/api/karyawan/import <br>
 Body:
 ```json
  {
