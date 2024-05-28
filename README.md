@@ -24,6 +24,7 @@ php artisan serve
 Link API:
 
 Get Karyawan:
+[Tautan ke Situs Portofolio]( https://gaganpreetkaurkalsi.netlify.app/ )
 [a relative link](localhost:8000/api/karyawan?limit=5&page=1)
 
 Create Karyawan:
@@ -31,13 +32,13 @@ Create Karyawan:
 Body Create: 
 ```json
 {
-	"nama":"",
-	"nomor":"",
-	"jabatan":"",
-	"departement":"",
-	"tanggal_masuk":"",
-    "status": "",
-    "foto": ""
+"nama":"",
+"nomor":"",
+"jabatan":"",
+"departement":"",
+"tanggal_masuk":"",
+"status": "",
+ "foto": ""
 }
 ```
 
