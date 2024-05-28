@@ -14,18 +14,23 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
+## Step 3
+php artisan migrate
 
-3. php artisan migrate
+## Step 4
+php artisan serve
 
-4. php artisan serve
+## Step 5
+Link API:
 
-5. LINK API:
 Get Karyawan:
-localhost:8000/api/karyawan?limit=5&page=1
+[a link](localhost:8000/api/karyawan?limit=5&page=1)
 
 Create Karyawan:
-localhost:8000/api/karyawan
-Body Create: {
+[a link](localhost:8000/api/karyawan)
+Body Create: 
+```json
+{
 	"nama":"",
 	"nomor":"",
 	"jabatan":"",
@@ -34,6 +39,8 @@ Body Create: {
     "status": "",
     "foto": ""
 }
+```
+
 
 Update Karyawan:
 localhost:8000/api/karyawan/{id}
