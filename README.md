@@ -23,11 +23,11 @@ php artisan serve
 ## Step 5
 Link API:
 
-- Get Karyawan: <br>
+Get Karyawan: <br>
 * Method GET localhost:8000/api/karyawan?limit=5&page=1 
 
 
-- Create Karyawan: <br>
+Create Karyawan: <br>
 * Method POST localhost:8000/api/karyawan
 Body Create: 
 ```json
@@ -43,7 +43,7 @@ Body Create:
 ```
 
 
-- Update Karyawan: <br>
+Update Karyawan: <br>
 * Method PUT localhost:8000/api/karyawan/{id}
 Body Update:
 ```json
@@ -59,18 +59,22 @@ Body Update:
 ```
 
 
-- Delete Karyawan: <br>
+Delete Karyawan: <br>
 * Method DELETE localhost:8000/api/karyawan/{id}
 
 
 Import Karyawan: 
-localhost:8000/api/karyawan/import
-Body: {
+* Method POST localhost:8000/api/karyawan/import
+Body:
+```json
+ {
     "file" : "",
 }
+```
+
 
 Export Csv Karyawan: 
-localhost:8000/api/karyawan/export-csv
+* Method GET localhost:8000/api/karyawan/export-csv
 
 Export PDF Karyawan: 
-localhost:8000/api/karyawan/export-pdf
+* Method GET localhost:8000/api/karyawan/export-pdf
