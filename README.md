@@ -23,8 +23,8 @@ php artisan serve
 ## Step 5
 Link API:
 
-Get Karyawan:
-*localhost:8000/api/karyawan?limit=5&page=1 
+Get Karyawan: <br>
+* localhost:8000/api/karyawan?limit=5&page=1 
 
 
 Create Karyawan:
