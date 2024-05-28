@@ -24,7 +24,7 @@ php artisan serve
 Link API:
 
 Get Karyawan:
-[Tautan ke Situs Portofolio]( https://gaganpreetkaurkalsi.netlify.app/ )
+[Tautan ke Situs Portofolio]( localhost:8000/api/karyawan?limit=5&page=1 )
 [a relative link](localhost:8000/api/karyawan?limit=5&page=1)
 
 Create Karyawan:
