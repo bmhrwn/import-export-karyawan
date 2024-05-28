@@ -24,10 +24,10 @@ php artisan serve
 Link API:
 
 Get Karyawan:
-[a link](localhost:8000/api/karyawan?limit=5&page=1)
+[a relative link](localhost:8000/api/karyawan?limit=5&page=1)
 
 Create Karyawan:
-[a link](localhost:8000/api/karyawan)
+[a relative link](localhost:8000/api/karyawan)
 Body Create: 
 ```json
 {
